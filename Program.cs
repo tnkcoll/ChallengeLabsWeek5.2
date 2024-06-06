@@ -63,12 +63,12 @@ namespace ChallengeLabsWeek5._2
                 }
                 else
                 {
-                    numbers[array[i]] = 0;
+                    numbers[array[i]]++;
                 }
             }
 
 
-            //Parse the dictionary to see i
+            //Parse the dictionary to see if is contains the key number of i.
             for (int i = minNumber; i < maxNumber; i++)
             {
                 if (!numbers.ContainsKey(i))
